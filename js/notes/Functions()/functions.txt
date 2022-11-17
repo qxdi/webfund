@@ -1,0 +1,60 @@
+Functions: execute from top to bottom. execute immidiately
+function name_of_function(){
+
+}
+
+example
+function (counter) {
+    for(var num = 0; num <= 5; num++){
+        console.log(num);
+    }
+}
+function need to be called other than that it will not be ran.
+
+calling the function by 
+
+name_of_function(); 
+
+function counter() {
+    for (var num=0; num <= 5; num++) {
+        console.log(num)
+    }
+}
+counter(); // run the function
+counter(); // run the function again
+
+To add Parameters
+function counter(startNum) {    //The function is expecting some PARAMETER in order to run
+    for (var num = startNum ; num >= 0 ; num--) {        
+        console.log(num);    
+    }
+}
+counter(6);    // Passing in an ARGUMENT of 6, the console would display: 6, 5, 4, 3, 2, 1, 0
+counter(3);    // Passing in an ARGUMENT of 3, the console would display: 3, 2, 1, 0
+
+with the block of code we can call this function with different inputs and see different message
+
+Returning vs Console logging
+
+function createArray(num) {        
+    var newArray = [];       
+    for (var i = 0; i <= num; i++) {                
+        newArray.push(i);        
+    }
+}
+createArray(5);
+
+createArray function only exist inside of the function. it does not exist anywhere else
+
+a return statement: true output of the function, also serves to end the function immediately
+
+
+function createArray(num) {
+    var newArray = [];
+    for (var i = 0; i <= num; i++) {
+        newArray.push(i);
+    }
+    return newArray;   // added return statement to finish the function
+}
+var y = createArray(5) // now y is the variable that is calling on createArray
+

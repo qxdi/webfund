@@ -1,0 +1,40 @@
+.nav{
+    background-color: rgb(65, 63, 63);
+    width: 900px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    margin-left: 25px;
+    color: white;
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+a{
+    color: silver;
+    font-size: smaller;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+.active{
+    color: white;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(54, 207, 207);
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    font-size: 15px;
+}

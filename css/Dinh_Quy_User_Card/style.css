@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 800px; height: 400px;
+    margin: 0px auto;
+    border: 5px lightgrey;
+    /* border-radius: 20px 20px black; */
+    border-style: solid;
+    align-items: center;
+}
+.user-card{
+    height: 100px;
+    background-color: aqua;
+
+}
+.profile-pic{
+    height: 120px;
+    margin-top: -65px;
+    margin-left: 30px;
+    border: 5px solid lightgray;
+    border-radius: 50%;
+}
+.icons{
+    height: 20px;
+}
+.card-mid{
+    margin-left: 30px;
+}
+
+h1, h3, p {
+    padding: 5px;
+}
+a{
+    color: rgb(53, 99, 248);
+}

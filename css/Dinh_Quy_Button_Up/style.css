@@ -1,0 +1,27 @@
+#button1{
+    border-radius: 20px;
+    color: #7fffd4;
+    background-color: aliceblue;
+    border-color: #7fffd4;
+    width: 150px;
+    
+}
+#button2{
+    color: white;
+    background-color: #7fffd4;
+    border-radius: 50%;
+    border: 0px;
+    height: 40px; width: 40px;
+}
+#button3{
+    background-color: rgb(58, 122, 218);
+    color: white;    
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+    width: 200px; height: 40px;
+    
+}
+#button1, #button2, #button3 {
+    font-size: 20px;
+    margin: 5px;
+}

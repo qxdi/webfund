@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-links">
+            <h1>Profile</h1>
+            <a href="#">Home</a>
+            <a href="#">My Profile</a>
+            <a href="">Find Connections</a>
+        </div>            
+            <button class="signoff">Sign Out</button>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="user-card">
+                <img id="profile-pic" src="QD_profilepic.JPG" alt="my profile pic">
+                <h2 id="username">Jane Doe</h2>
+                <h3>
+                    <img class="icons" src="map-marker.png" alt="location pin">
+                    Seattle
+                </h3>
+                <p>
+                    Developer | Engineer | Problem Solver <br>
+                    Master of Shadows and the Internet!
+                </p>
+                <p> 
+                    <img class="icons" src="gear.png" alt="setting gear"> 
+                    <button id="editbutton" onclick="changename(this)">edit profile</button>                
+                </p>
+            </div>       
+            <div class="education">
+                <h3 class="edu">Education</h3>
+                <h4> Coding Dojo - Full Stack Bootcamp</h4>
+                <p class="date">Dec 2019 - Mar 2020</p>
+                <p>Triple black belt in Python, MERN, and C#</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="requests">
+                <div class="request-top">
+                    <h3 class="req-title"><span class="req-num">2</span>Connection Requests</h3>                
+                </div>
+                <div class="req-list">
+                    <div id="no-1-req">
+                        <div class="name-ava">
+                            <img class="small-ava" src="todd-s.jpg" alt="Todd E">
+                            <p class="name-req">Todd E</p>
+                        </div>
+                        <div>
+                            <img class="small-ava" onclick="addReq(#no-1-req)" src="accept-circle.png" alt="accept icon">
+                            <img class="small-ava" onclick="removeReq()" src="close-circle.png" alt="deny-icon">
+                        </div>
+                    </div>
+                
+                    <div id="no-2-req">
+                        <div  class="name-ava">
+                            <img class="small-ava" src="phil-s.jpg" alt="Phil K">
+                            <p class="name-req"> Phil K</p>
+                        </div>
+                        <div>
+                            <img class="small-ava" onclick="addReq(no-2-req)" src="accept-circle.png" alt="accept icon">
+                            <img class="small-ava" onclick="removeReq()" src="close-circle.png" alt="deny-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="friends">
+                <div class="friends-top">
+                    <h3 class="friend-title"> <span class="friend-num">500+ </span>Your Connections</h3>
+                </div>
+                <div class="friends-mid">
+                    <ul>
+                        <li>
+                            <img class="small-ava" src="adrien-s.jpg" alt="Adrien D">
+                            Adrien D
+                        </li>
+                        <li>
+                            <img class="small-ava" src="anne-s.jpg" alt="Anne J">
+                            Anne J
+                        </li>
+                        <li>
+                            <img class="small-ava" src="alayne-s.jpg" alt="Alayne T">
+                            Alayne T
+                        </li>
+                        <li>
+                            <img class="small-ava" src="arry-s.jpg" alt="Arry Y">
+                            Arry Y
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <hr class="line">
+                    <a class="view" href="#">View More</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

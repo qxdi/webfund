@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    font-size: 350%;
+    color: darkblue;
+    
+}
+p{
+    text-align: center;
+}
+.container{
+    width: 950px;
+    background-color: rgb(206, 206, 206);
+    margin: 25px;
+    padding: 15px;
+}
+.box1,.box2,.box3{
+    height: 200px;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+}
+
+.box1{
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+.box2{
+    background-color: aqua;
+    justify-content: space-around;
+}
+.box3{
+    background-color: yellowgreen;
+    justify-content: space-between;
+}

@@ -1,0 +1,78 @@
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    padding: 15px;
+    height: 30px;
+}
+.navbar input{
+    width: 300px;
+}
+.likebutton{
+    background-color: rgba(255, 166, 0, 0.651);
+    box-shadow: 3px 3px 0px;
+    margin-left: 27px;
+    margin-top: 25px;
+}
+.login{
+    background-color: rgb(34, 156, 236);
+    color: white;
+    box-shadow: 3px 3px 0px black;
+}
+.define{
+    background-color: rgba(80, 165, 87, 0.815);
+    box-shadow: 3px 3px 0px black;
+    width: 80%;
+    margin-left: 15px;
+}
+.partofspeech,
+.plural{
+    font-style: italic;
+}
+.main{
+    display: flex;
+    gap: 15px;
+}
+.left{
+    flex: 5;
+}
+.right{
+    flex: 3;
+}
+.box1, .box2, .box3{
+    border: 3px solid darkgray;
+    padding: 10px;
+    margin-top: 20px;
+}
+.box1, .box2{
+    display: flex;
+}
+.box3 h3{
+    width: 70%;
+    margin-left: 15px;
+}
+
+.description{
+    padding: 40px;
+    width: 50%;
+}
+.group1{
+    line-height: 5px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.box3 p{
+    font-size: 1.9rem;    
+}
+.specialU{
+    font-weight: bold;
+}
+a {
+    color: blue;
+}

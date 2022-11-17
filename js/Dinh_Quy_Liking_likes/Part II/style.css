@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 40%;
+    margin: 0 auto;
+}
+h2{
+    margin-top: 10px;
+}
+a{
+    color: rgb(30, 121, 240);
+}
+.main{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.profilebox{
+    flex: 1;
+    border: 3px solid black;
+    height: 250px;
+    display:block;
+    padding: 5px;
+}
+#profilefoto{
+    height: 135px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    margin-top: 30px;
+}
+.addava{
+    margin-left: 25px ;
+}
+#accountholder{
+    margin-left: 32px;
+    margin-top: 15px;
+    
+}
+.posts{
+    flex: 4;
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    height: 30px;
+}
+.container h2{
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.postbox{
+    border: 3px solid black;
+    width: 92%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.boxTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.likebtn{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.button1{
+    background-color: rgb(255, 217, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px black;
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+}
+.postcontent{
+    margin-top: 15px;
+}

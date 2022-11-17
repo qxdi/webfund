@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+#editbutton{
+    border: none;
+    color: blue;
+    background-color: transparent;
+}
+.nav-bar{
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 60px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px; 
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+.signoff{
+    background-color: rgb(64, 200, 235);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    width: 150px; height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.signoff:hover{
+    box-shadow: 6px 5px 15px white;
+    background-color: red;
+}
+.nav-bar a:hover{
+    font-size: larger;
+
+}
+#profile-pic{
+    height: 125px;
+    margin-top: -70px;
+    border-radius: 50%;
+    border: 5px solid cornsilk;
+}
+.icons{
+    height: 20px;
+}
+.friend-num{
+    padding: 5px;
+    background-color: green;
+    border-radius: 50%;   
+}
+.req-num{
+    padding: 8px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.small-ava{
+    height: 45px;
+    border-radius: 50%;
+}
+.date{
+    color: gray;
+}
+.container{
+    display: flex;
+    margin: 30px auto;
+    width: 65%;
+    padding: 35px;
+    
+}
+.left{
+    flex: 7;
+}
+.right{
+    flex: 4;
+}
+.user-card, 
+.education,
+.requests,
+.friends{
+    border: 5px solid gray;
+    padding: 15px;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+.user-card{
+    border-top: 100px solid rgb(85, 156, 51);
+    height: auto;
+    margin-bottom: 25px;
+    width: 85%; 
+}
+.education{
+    height: auto; width: 85%;
+    border-top: 55px solid gray;
+}
+.requests{
+    margin-bottom: 25px;
+    border-top: 55px solid gray;
+    width: 380px;
+}
+.friends{
+    border-top: 55px solid gray;
+    width: 380px;
+}
+.friend-title,
+.req-title,
+.edu{
+    margin-top: -60px;
+}
+.req-list,
+.friends-mid,
+div h4{
+    margin-top: 20px;
+}
+.friends{
+    position: relative;
+}
+hr.line{
+    border-top: 5px solid gray;
+    width: 410px;
+    margin-left: -15px
+}
+#no-1-req,
+#no-2-req{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.name-ava{
+    display: flex;
+}

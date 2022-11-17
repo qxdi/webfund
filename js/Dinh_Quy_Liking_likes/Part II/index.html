@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Network</h1>
+        <h2>Your Feed</h2>
+        <div class="main">
+            <div class="profilebox">
+                <img id="profilefoto" src="photo/profile.jpg" alt="profile icon">
+                <a class="addava" href="#">Change avatar</a>
+                <h3 id="accountholder">Quy Dinh</h3>
+            </div>
+            <div class="posts">
+                <div class="postbox">
+                    <div class="boxTop">
+                        <h4>Neil M</h4>
+                            <div class="likebtn">
+                                <p id="num1postlike">9 like(s)</p>
+                                <button class="button1" onclick="addlike(0)">Like</button>
+                            </div>
+                    </div>
+                    <p class="postcontent"> I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+
+                <div class="postbox">
+                    <div class="boxTop">
+                        <h4>Nichole K</h4>
+                            <div class="likebtn">
+                                <p id="num2postlike">12 like(s)</p>
+                                <button class="button1" onclick="addlike(1)">Like</button>
+                            </div>
+                    </div>
+                    <p class="postcontent"> Just finished my <a href="#">next comic,</a> check it out.</p>
+                </div>
+
+                <div class="postbox">
+                    <div class="boxTop">
+                        <h4>Jim R</h4>
+                            <div class="likebtn">
+                                <p id="num3postlike">9 like(s)</p>
+                                <button class="button1" onclick="addlike(2)">Like</button>
+                            </div>
+                    </div>
+                    <p class="postcontent">I can't stop listening to the <a href="#">new album</a>. Who else is like it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
